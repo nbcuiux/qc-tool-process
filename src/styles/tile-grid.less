@@ -1,0 +1,124 @@
+@import "variables";
+.tile-grid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.tile-grid--3-column .tile {
+  margin-right: 12px;
+  min-width: ~'calc(33% - 12px)';
+}
+.tile-grid--3-column .tile:nth-child(n + 4) {
+  margin-top: 12px;
+}
+.tile-grid--3-column .flip-container {
+  flex: 1;
+  margin-right: 12px;
+  min-width: ~'calc(33% - 12px)';
+  height: 245px;
+}
+.tile-grid--3-column .flip-container .back h3,
+.tile-grid--3-column .flip-container .back h4 {
+  white-space: normal;
+}
+.tile-grid--3-column .flip-container .tile {
+  min-width: 100%;
+  height: 233px;
+  padding: 48px 18px;
+}
+.tile-grid--3-column .tile:nth-child(3n+3),
+.tile-grid--3-column .flip-container:nth-child(3n+3) {
+  margin-right: 0;
+}
+.tile-grid .tile {
+  cursor: auto;
+  margin-bottom: 0;
+  flex: 1;
+  display: flex;
+  padding: 0 0 30px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+}
+.tile-grid .tile h3 {
+  font-size: 21px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+.tile-grid .tile span {
+  margin: 0 3px;
+}
+.tile-grid .tile h4 {
+  font-size: 19px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.tile-grid .tile img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.tile-grid .tile img.tile-icon {
+  width: auto;
+  height: 72px;
+}
+.tile-grid {
+  &--icons {
+    .tile {
+      padding: 48px 12px;
+      img {
+        width: auto;
+        height: 72px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1224px) {
+
+  .tile-grid .tile h4 {
+  font-size: 16px;
+
+}
+
+}
+@media screen and (max-width: 760px) {
+
+
+  .tile-grid--4-column label.tile {
+    margin-top: 0px;
+    margin-right: 12px;
+    padding: 48px 12px;
+    min-width: calc(50% - 12px);
+  }
+  .tile-grid--4-column label.tile:nth-of-type(2n+2) {
+    margin-right: 0;
+  }
+  .tile-grid--4-column label.tile:nth-child(n + 4) {
+    margin-top: 12px;
+  }
+  .tile-grid--4-column label.tile:after {
+    display: none;
+  }
+  .tile-grid--4-column input:checked ~ .expand .column-outer,
+  .tile-grid--4-column input:checked ~ .expand .column-inner {
+    height: 648px;
+  }
+  .tile-grid--4-column .expand .column-inner .inner-content {
+    flex-direction: column-reverse;
+  }
+  .tile-grid--4-column .expand .column-inner .inner-content .expand-tile {
+    flex: intial;
+    margin-right: 0;
+    height: 40%;
+  }
+  .tile-grid--4-column .expand .column-inner .inner-content .close-expand {
+    align-self: flex-end;
+  }
+}
+

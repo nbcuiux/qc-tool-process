@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="109px" viewBox="0 0 109 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checklist" transform="translate(2.000000, 3.000000)" stroke="#2E94B5" stroke-width="3.6">
+            <polygon id="Path-11" points="9 22 9 84.9105691 19.2314815 95 74 95 74 22"></polygon>
+            <path d="M90,87.5 L107,87.5" id="Path-13"></path>
+            <path d="M19.3,16 L19.3,21 M63.7,21 L63.7,16" id="Path-11-Copy-2"></path>
+            <polygon id="Path-11-Copy-3" stroke-linejoin="round" points="19 32 19 38 25 38 25 32"></polygon>
+            <polyline id="Path-11-Copy" points="19 95 19 85 9 85"></polyline>
+            <path d="M13.8333333,12 L3.00724638,12 L3.00724638,12 C1.34639006,12 -7.3088236e-15,13.3373313 -7.10542736e-15,14.987013 L-6.03703882e-15,101.012987 L-6.03703882e-15,101.012987 C-5.83364259e-15,102.662669 1.34639006,104 3.00724638,104 L79.9927536,104 L79.9927536,104 C81.6536101,104 83,102.662669 83,101.012987 L83,14.987013 L83,14.987013 C83,13.3373313 81.6536101,12 79.9927536,12 L69.7681159,12" id="Path-12"></path>
+            <polygon id="Path-12-Copy" points="14 8 14 14 69 14 69 8"></polygon>
+            <path d="M64,7 L64,2.69230769 L64,2.69230769 C64,1.20538721 62.6387038,1.26396049e-14 60.9594595,0 L22.0405405,0 L22.0405405,0 C20.3612964,2.73142861e-16 19,1.20538721 19,2.69230769 L19,2.69230769 L19,7" id="Path-12-Copy-2"></path>
+            <polygon id="Path-14" points="92 103 92 24.222973 97.2941176 14 102 24.222973 102 103"></polygon>
+            <polygon id="Path-14-Copy" points="92 96 92 33 102 33 102 96"></polygon>
+            <path d="M93,26.5 L102,26.5" id="Path-13-Copy"></path>
+            <path d="M36,32.5 L60,32.5" id="Path-2"></path>
+            <path d="M36,38.5 L51,38.5" id="Path-2-Copy"></path>
+            <path d="M55,38.5 L58,38.5" id="Path-2-Copy-2"></path>
+            <polygon id="Path-11-Copy-4" stroke-linejoin="round" points="19 51 19 57 25 57 25 51"></polygon>
+            <path d="M36,50.5 L60,50.5" id="Path-2-Copy-5"></path>
+            <path d="M36,57.5 L51,57.5" id="Path-2-Copy-4"></path>
+            <path d="M55,57.5 L58,57.5" id="Path-2-Copy-3"></path>
+            <polygon id="Path-11-Copy-5" stroke-linejoin="round" points="19 69 19 75 25 75 25 69"></polygon>
+            <path d="M36,68.5 L60,68.5" id="Path-2-Copy-8"></path>
+            <path d="M36,86.5 L60,86.5" id="Path-2-Copy-9"></path>
+            <path d="M36,75.5 L51,75.5" id="Path-2-Copy-7"></path>
+            <path d="M55,75.5 L58,75.5" id="Path-2-Copy-6"></path>
+        </g>
+    </g>
+</svg>

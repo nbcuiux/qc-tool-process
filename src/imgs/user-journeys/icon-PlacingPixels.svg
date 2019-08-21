@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="513px" height="472px" viewBox="0 0 513 472" style="enable-background:new 0 0 513 472;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#002833;}
+	.st1{fill:#E8E8E8;}
+	.st2{fill:#C9C9C9;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:82px;}
+	.st6{fill:none;}
+	.st7{fill:#000000;}
+	.st8{fill:#7A7C7C;}
+</style>
+<title>Slice 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="managing-ads-1">
+		<path id="Shape" class="st0" d="M0,335.3V11.4C0,5.6,4.7,0.9,10.5,0.9h491.1c5.7,0,10.4,4.7,10.4,10.5v323.9"/>
+		<g id="Group" transform="translate(0.000000, 335.000000)">
+			<path id="Shape_1_" class="st1" d="M0,0.3v41.8c0,5.8,4.7,10.5,10.5,10.5h491.1c5.8,0,10.5-4.7,10.5-10.5V0.3H0z"/>
+			<rect id="Rectangle-path" x="146.3" y="125.7" class="st1" width="219.4" height="10.5"/>
+		</g>
+		<polygon id="Shape_2_" class="st2" points="329.1,460.7 182.9,460.7 193.3,387.6 318.7,387.6 		"/>
+		<rect id="Rectangle-path_1_" x="20.9" y="21.8" class="st3" width="470.2" height="292.6"/>
+	</g>
+	<text transform="matrix(1 0 0 1 151 158)" class="st3 st4 st5">pixels</text>
+</g>
+<g>
+	<path class="st6" d="M254.3,16c2.6,0,4.5-2,4.5-4l0,0C258.9,14.2,256.8,16,254.3,16c-2.6,0-4.5-2-4.5-4l0,0
+		C249.7,14.2,251.7,16,254.3,16z"/>
+	<rect x="41" y="35.1" width="430.1" height="34.3"/>
+	<rect x="41" y="35.1" class="st7" width="430.1" height="34.3"/>
+	<rect x="338.9" y="75.4" class="st3" width="132" height="225.6"/>
+	<g>
+		<rect x="41" y="77.7" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="97.3" class="st8" width="120.3" height="9.4"/>
+		<rect x="41" y="116.8" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="136.2" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="155.7" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="175.1" class="st8" width="120.3" height="9.4"/>
+		<rect x="41" y="194.6" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="214" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="233.4" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="252.8" class="st8" width="120.3" height="9.4"/>
+		<rect x="41" y="272.3" class="st8" width="284" height="9.4"/>
+		<rect x="41" y="291.6" class="st8" width="284" height="9.4"/>
+	</g>
+</g>
+</svg>

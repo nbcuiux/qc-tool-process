@@ -1,0 +1,47 @@
+@import 'variables.less';
+.moduleD1 {
+  position: relative;
+}
+
+.moduleD1 .module-body {
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 38px;
+  width: 20%;
+  max-width: 250px;
+}
+
+@media screen and (max-width: 1240px) {
+  position: relative;
+    .moduleD1 .module-body {
+      box-sizing: border-box;
+      padding-right: 20px;
+      max-width: 240px;
+      width: 20%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .moduleD1 .module-body {
+        position: relative;
+        padding-right: 0;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .moduleD1 .module-body {
+        position: relative;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+.centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

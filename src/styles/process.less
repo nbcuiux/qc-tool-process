@@ -1,0 +1,516 @@
+@import "variables";
+
+.process {
+  position: relative;
+  width: 800px;
+  height: 800px;
+
+  flex-shrink: 0;
+  left: 10%;
+
+  @media screen and (max-width: 1240px) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+.process__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+
+  list-style: none;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  width: 200px;
+
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1.4;
+  text-align: center;
+
+  opacity: 0;
+
+  color: @color-gray;
+
+}
+
+.center {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: ~"calc(100% + 10px)";
+  height: ~"calc(100% + 10px)";
+}
+
+.center__circle {
+  stroke: @color-gray;
+  stroke-width: @strokeWidth-arc;
+  fill: transparent;
+  vector-effect: non-scaling-stroke;
+}
+
+.circle__arc {
+  stroke: @color-gray;
+  stroke-width: @strokeWidth-arc;
+  fill: transparent;
+  vector-effect: non-scaling-stroke;
+}
+
+.super-q {
+  position: relative;
+}
+.q {
+  position: absolute;
+  width: 55%;
+  height: 55%;
+  background: @color-bg;
+}
+.q1 {
+  top: 0;
+  left: 0;
+}
+.q2 {
+  top: 0;
+  left: 50%;
+}
+.q3 {
+  top: 50%;
+  left: 0;
+}
+.q4 {
+  top: 50%;
+  left: 50%;
+}
+
+.step {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.step-1 {
+  top: 0;
+  left: 50%;
+}
+.step-2 {
+  top: 50% * (1 - sin(45deg));
+  left: 50% * (1 + sin(45deg))//85%;
+}
+.step-3 {
+  top:50%;
+  left: 100%;
+}
+.step-4 {
+  top: 50% * (1 + sin(45deg));
+  left: 50% * (1 + sin(45deg));
+}
+.step-5 {
+  top: 100%;
+  left: 50%;
+}
+.step-6 {
+  top: 50% * (1 + sin(45deg));
+  left: 50% * (1 - sin(45deg));
+}
+.step-7 {
+  top: 50%;
+  left: 0;
+}
+.step-8 {
+  top: 50% * (1 - sin(45deg));
+  left: 50% * (1 - sin(45deg));
+}
+
+.step__spot-svg {
+  width: @size-spot-radius;
+  height: @size-spot-radius;
+  cursor: pointer;
+}
+.step__spot-fill {
+  fill: #ffffff;
+}
+.step__spot-circle {
+  fill: #ffffff;
+  stroke: #999999;
+  vector-effect: non-scaling-stroke;
+  stroke-width: @strokeWidth-arc;
+
+  .is-checked & {
+    .step-1 & {stroke: @color-step-1; fill: @color-step-1;}
+    .step-2 & {stroke: @color-step-2; fill: @color-step-2;}
+    .step-3 & {stroke: @color-step-3; fill: @color-step-3;}
+    .step-4 & {stroke: @color-step-4; fill: @color-step-4;}
+    .step-5 & {stroke: @color-step-5; fill: @color-step-5;}
+    .step-6 & {stroke: @color-step-6; fill: @color-step-6;}
+    .step-7 & {stroke: @color-step-7; fill: @color-step-7;}
+    .step-8 & {stroke: @color-step-8; fill: @color-step-8;}
+  }
+}
+
+.step__arc {
+  stroke-width: 2 * @strokeWidth-arc;
+  fill: transparent;
+  vector-effect: non-scaling-stroke;
+
+  &.step__arc-1 {stroke: url(#grad-arc-1);}
+  &.step__arc-2 {stroke: url(#grad-arc-2);}
+  &.step__arc-3 {stroke: url(#grad-arc-3);}
+  &.step__arc-4 {stroke: url(#grad-arc-4);}
+  &.step__arc-5 {stroke: url(#grad-arc-5);}
+  &.step__arc-6 {stroke: url(#grad-arc-6);}
+  &.step__arc-7 {stroke: url(#grad-arc-7);}
+  &.step__arc-8 {stroke: url(#grad-arc-8);}
+}
+.step__number {
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  color: @color-gray;
+  line-height: 1.4;
+  text-align: center;
+
+  cursor: pointer;
+
+  opacity: 0;
+
+  .is-checked & {
+    color: #ffffff;
+    font-weight: 700;
+  }
+}
+
+.step__info {
+  position: absolute;
+  width: 200px;
+  pointer-events: all;
+
+  &.active {
+    &:hover {
+      .step__text, .step__header {
+        opacity: 0 !important;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      .step__role {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+      }
+    }
+  }
+
+  .step-1 & {bottom: 0; left: 60px; transform: translate(0, 0);}
+  .step-2 & {top: 0; left: 80px; transform: translate(0, 0);}
+  .step-3 & {top: 0; left: 60px; transform: translate(0, 0);}
+  .step-4 & {top: 100%; left: 20px; transform: translate(0, 20px);}
+  .step-5 & {top: ~"calc(100% + 20px)"; left: 50%; transform: translate(-45%, 0);}
+  .step-6 & {top: 0; right: 30px; transform: translate(0, -15%);}
+  .step-7 & {top: 0; right: 30px; transform: translate(0, -65%);}
+  .step-8 & {top: -20px; right: 0px; transform: translate(0, -100%);}
+}
+
+.step__role {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+
+  .step-1 & {bottom: -10px; left: 0px;}
+  .step-2 & {top: 40px; left: -10px; width: 191px;}
+  .step-3 & {top: 0;}
+  .step-4 & {top: -40px; left: 30px;}
+  .step-5 & {top: 0; left: 0; width: 191px;}
+  .step-6 & {top: 30px; right: 30px; width: 191px;}
+  .step-7 & {top: 80px; right: 30px;}
+  .step-8 & {top: 110px; right: 50px; width: 191px;}
+
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  .step-1 & {color: @color-step-1;}
+  .step-2 & {color: @color-step-2;}
+  .step-3 & {color: @color-step-3;}
+  .step-4 & {color: @color-step-4;}
+  .step-5 & {color: @color-step-5;}
+  .step-6 & {color: @color-step-6;}
+  .step-7 & {color: @color-step-7;}
+  .step-8 & {color: @color-step-8;}
+  text-align: center;
+
+}
+
+
+
+
+.iconize {
+  position:relative;
+  width:35px;
+}
+
+.step__icon {
+  position: relative;
+  width: 60px;
+
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  opacity: 0;
+  margin-bottom: 8px;
+
+  &.is-visible {
+    opacity: 1;
+  }
+  .article-list & {
+    width: auto;
+  }
+}
+.step__svg {
+  position: relative;
+  bottom: 0;
+}
+.step__header {
+  position: relative;
+  margin-bottom: 8px;
+  transition: opacity 0.2s ease-in-out;
+
+  &::before {
+    //content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 80px;
+    border: none;
+    background-color: black;
+  }
+}
+.step__title {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.1;
+  color: black;
+  opacity: 0;
+
+  .step-1 & {color: @color-step-1;}
+  .step-2 & {color: @color-step-2;}
+  .step-3 & {color: @color-step-3;}
+  .step-4 & {color: @color-step-4;}
+  .step-5 & {color: @color-step-5;}
+  .step-6 & {color: @color-step-6;}
+  .step-7 & {color: @color-step-7;}
+  .step-8 & {color: @color-step-8;}
+}
+
+.step__text {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  transition: opacity 0.2s ease-in-out;
+  //width: 250px;
+
+  opacity: 0;
+}
+
+.step {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.step-1 {
+    top: 0;
+    left: 50%;
+}
+.step-2 {
+    top: 50% * (1 - sin(45deg));
+    left: 50% * (1 + sin(45deg))//85%;
+}
+.step-3 {
+    top:50%;
+    left: 100%;
+}
+.step-4 {
+    top: 50% * (1 + sin(45deg));
+    left: 50% * (1 + sin(45deg));
+}
+.step-5 {
+    top: 100%;
+    left: 50%;
+}
+.step-6 {
+    top: 50% * (1 + sin(45deg));
+    left: 50% * (1 - sin(45deg));
+}
+.step-7 {
+    top: 50%;
+    left: 0;
+}
+.step-8 {
+    top: 50% * (1 - sin(45deg));
+    left: 50% * (1 - sin(45deg));
+}
+
+.step__spot-svg {
+    width: @size-spot-radius;
+    height: @size-spot-radius;
+    cursor: pointer;
+}
+.step__spot-fill {
+    fill: #FAFAFA;
+}
+.step__spot-circle {
+    fill: #FAFAFA;
+    stroke: #999999;
+    vector-effect: non-scaling-stroke;
+    stroke-width: @strokeWidth-arc;
+
+    .is-checked & {
+        .step-1 & {stroke: @color-step-1; fill: @color-step-1;}
+        .step-2 & {stroke: @color-step-2; fill: @color-step-2;}
+        .step-3 & {stroke: @color-step-3; fill: @color-step-3;}
+        .step-4 & {stroke: @color-step-4; fill: @color-step-4;}
+        .step-5 & {stroke: @color-step-5; fill: @color-step-5;}
+        .step-6 & {stroke: @color-step-6; fill: @color-step-6;}
+        .step-7 & {stroke: @color-step-7; fill: @color-step-7;}
+        .step-8 & {stroke: @color-step-8; fill: @color-step-8;}
+    }
+}
+
+.step__arc {
+    stroke-width: 2 * @strokeWidth-arc;
+    fill: transparent;
+    vector-effect: non-scaling-stroke;
+
+    &.step__arc-1 {stroke: url(#grad-arc-1);}
+    &.step__arc-2 {stroke: url(#grad-arc-2);}
+    &.step__arc-3 {stroke: url(#grad-arc-3);}
+    &.step__arc-4 {stroke: url(#grad-arc-4);}
+    &.step__arc-5 {stroke: url(#grad-arc-5);}
+    &.step__arc-6 {stroke: url(#grad-arc-6);}
+    &.step__arc-7 {stroke: url(#grad-arc-7);}
+    &.step__arc-8 {stroke: url(#grad-arc-8);}
+}
+.step__number {
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: @color-gray;
+    line-height: 1.4;
+    text-align: center;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    .is-checked & {
+        color: #ffffff;
+        font-weight: 700;
+    }
+}
+.step__info {
+    position: absolute;
+    width: 200px;
+
+    .step-1 & {bottom: ~"calc(100% + 20px)"; left: 0px; transform: translate(0, 0);}
+    .step-2 & {top: 0; left: 80px; transform: translate(0, -40%);}
+    .step-3 & {top: 0; left: 60px; transform: translate(0, 0);}
+    .step-4 & {top: 100%; left: 20px; transform: translate(0, 20px);}
+    .step-5 & {top: ~"calc(100% + 20px)"; left: 50%; transform: translate(-45%, 0);}
+    .step-6 & {top: 0; right: 30px; transform: translate(0, -15%);}
+    .step-7 & {top: 0; right: 30px; transform: translate(0, -65%);}
+    .step-8 & {top: -20px; right: 0px; transform: translate(0, -100%);}
+}
+
+.step__icon {
+    position: relative;
+    //height: 50px;
+    width: 60px;
+
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    opacity: 0;
+    margin-bottom: 8px;
+
+    //.step-1 & {background-image: url('../imgs/icons/discovery.svg'); background-size: 80%;}
+    //.step-2 & {background-image: url('../imgs/icons/ideation.svg'); background-size: 70%;}
+    //.step-3 & {background-image: url('../imgs/icons/wireframes.svg'); background-size: 90%;}
+    //.step-4 & {background-image: url('../imgs/icons/prototype.svg'); background-size: 90%;}
+    //.step-5 & {background-image: url('../imgs/icons/testing.svg'); background-size: 90%;}
+    //.step-6 & {background-image: url('../imgs/icons/mapping.svg'); background-size: 100%;}
+    //.step-7 & {background-image: url('../imgs/icons/backlog.svg'); background-size: 70%;}
+    //.step-8 & {background-image: url('../imgs/icons/brand.svg'); background-size: 70%;}
+}
+.step__svg {
+    position: relative;
+    bottom: 0;
+}
+.step__header {
+    position: relative;
+    margin-bottom: 8px;
+    //padding-bottom: 10px;
+
+    &::before {
+        //content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 80px;
+        border: none;
+        background-color: black;
+
+        /*.step-1 & {background-color: @color-step-1;}
+        .step-2 & {background-color: @color-step-2;}
+        .step-3 & {background-color: @color-step-3;}
+        .step-4 & {background-color: @color-step-4;}
+        .step-5 & {background-color: @color-step-5;}
+        .step-6 & {background-color: @color-step-6;}
+        .step-7 & {background-color: @color-step-7;}
+        .step-8 & {background-color: @color-step-8;}*/
+
+
+    }
+}
+.step__title {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.1;
+    color: black;
+    opacity: 0;
+
+    .step-1 & {color: @color-step-1;}
+    .step-2 & {color: @color-step-2;}
+    .step-3 & {color: @color-step-3;}
+    .step-4 & {color: @color-step-4;}
+    .step-5 & {color: @color-step-5;}
+    .step-6 & {color: @color-step-6;}
+    .step-7 & {color: @color-step-7;}
+    .step-8 & {color: @color-step-8;}
+}
+
+.step__text {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    //width: 250px;
+
+    opacity: 0;
+}

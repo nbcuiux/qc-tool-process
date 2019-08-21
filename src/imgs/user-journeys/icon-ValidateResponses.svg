@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 428 428" style="enable-background:new 0 0 428 428;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#B3B3B3;stroke-width:0.1;stroke-miterlimit:10;}
+	.st3{fill:#2F383A;}
+	.st4{fill:#000000;}
+	.st5{fill:#EDF0F4;}
+</style>
+<g class="st0">
+	<g class="st1">
+		<rect x="184" y="176" class="st2" width="60" height="60"/>
+		<line class="st2" x1="214" y1="176" x2="214" y2="236"/>
+		<line class="st2" x1="244" y1="206" x2="184" y2="206"/>
+		<line class="st2" x1="184" y1="176" x2="244" y2="236"/>
+		<rect x="192" y="184" class="st2" width="44" height="44"/>
+		<line class="st2" x1="244" y1="176" x2="184" y2="236"/>
+		<line class="st2" x1="184" y1="206" x2="214" y2="176"/>
+		<line class="st2" x1="214" y1="176" x2="244" y2="206"/>
+		<line class="st2" x1="244" y1="206" x2="214" y2="236"/>
+		<line class="st2" x1="214" y1="236" x2="184" y2="206"/>
+		<circle class="st2" cx="214" cy="206" r="21"/>
+	</g>
+</g>
+<path class="st3" d="M0.5,0v427h427V0H0.5z M78.8,14.2c4.3,0,7.1,2.8,7.1,7.1s-2.8,7.1-7.1,7.1s-7.1-2.8-7.1-7.1
+	S74.5,14.2,78.8,14.2z M50.3,14.2c4.3,0,7.1,2.8,7.1,7.1s-2.8,7.1-7.1,7.1s-7.1-2.8-7.1-7.1S46.1,14.2,50.3,14.2z M21.9,14.2
+	c4.3,0,7.1,2.8,7.1,7.1s-2.8,7.1-7.1,7.1s-7.1-2.8-7.1-7.1S17.6,14.2,21.9,14.2z M413.3,42.7v270.4H14.7V42.7H413.3z M14.7,412.7
+	v-85.4h398.5v85.4H14.7z"/>
+<polygon class="st3" points="40.4,335.9 31.8,347.3 60.3,370 31.8,392.8 40.4,404.2 83.1,370 "/>
+<rect x="78.8" y="384.3" class="st3" width="56.9" height="14.2"/>
+<rect x="29" y="56.9" class="st4" width="370" height="92.5"/>
+<rect x="29" y="163.7" class="st5" width="170.8" height="99.6"/>
+<rect x="228.2" y="163.7" class="st5" width="170.8" height="99.6"/>
+<rect x="29" y="277.5" class="st4" width="370" height="14.2"/>
+</svg>

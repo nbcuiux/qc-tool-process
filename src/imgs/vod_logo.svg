@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>vod_logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="vod_logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(1.000000, 1.000000)" stroke="#193F53" stroke-width="1.5">
+            <path d="M23.67225,5.36625 C23.0279084,5.22401953 22.3752379,5.12256816 21.718125,5.0625 C19.9869619,4.8975232 18.240324,5.03108963 16.554375,5.457375 C8.27177499,7.52805155 3.23528518,15.9202258 5.30419154,24.2032681 C7.3730979,32.4863105 15.7641955,37.5245938 24.0476799,35.4574577 C32.3311642,33.3903216 37.3712407,25.0003009 35.305875,16.716375" id="Path"></path>
+            <polygon id="Triangle-Copy-4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="25.585875 20.867625 18.255375 26.568 18.255375 15.16725"></polygon>
+            <path d="M7.51275,35.21475 C12.1565014,39.2414409 18.4167214,40.8636284 24.431625,39.598875 L24.431625,39.598875 C32.6683688,37.8631593 38.8711233,31.0527713 39.83175,22.690125 M33.949125,6.388875 C27.7537536,0.433623948 18.4007197,-0.789219993 10.8825489,3.37308106 C3.36437813,7.53538211 -0.56382998,16.1111486 1.19475,24.52275 C1.787402,27.3322516 2.99791704,29.974633 4.7385,32.25825" id="Shape"></path>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="34.131375" cy="6.62175" r="1.68075"></circle>
+            <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="nonzero" cx="8.899875" cy="35.9235" r="1.68075"></circle>
+        </g>
+    </g>
+</svg>

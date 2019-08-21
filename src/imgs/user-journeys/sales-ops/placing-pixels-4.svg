@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 513 472" style="enable-background:new 0 0 513 472;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#002833;}
+	.st1{fill:#E8E8E8;}
+	.st2{fill:#C9C9C9;}
+	.st3{fill:#000000;}
+	.st4{fill:#2F383A;}
+	.st5{fill:#F3F3F3;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-family:'ArialMT';}
+	.st8{font-size:82px;}
+</style>
+<title>Slice 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="managing-ads-1">
+		<path id="Shape" class="st0" d="M0,335.3V11.4C0,5.6,4.7,0.9,10.5,0.9h491.1c5.7,0,10.4,4.7,10.4,10.5v323.9"/>
+		<g id="Group" transform="translate(0.000000, 335.000000)">
+			<path id="Shape_1_" class="st1" d="M0,0.3v41.8c0,5.8,4.7,10.5,10.5,10.5h491.1c5.8,0,10.5-4.7,10.5-10.5V0.3H0z"/>
+			<rect id="Rectangle-path" x="146.3" y="125.7" class="st1" width="219.4" height="10.5"/>
+		</g>
+		<polygon id="Shape_2_" class="st2" points="329.1,460.7 182.9,460.7 193.3,387.6 318.7,387.6 		"/>
+		<rect id="Rectangle-path_1_" x="20.9" y="21.8" class="st3" width="470.2" height="292.6"/>
+		<path id="Shape_3_" class="st4" d="M402.3,189H109.7c-8.6,0-15.7-7-15.7-15.7V89.7c0-8.6,7-15.7,15.7-15.7h292.6
+			c8.6,0,15.7,7,15.7,15.7v83.6C417.9,182,410.9,189,402.3,189z"/>
+		<g id="Group_1_" transform="translate(356.000000, 178.000000)">
+			
+				<rect id="Rectangle-path_2_" x="52.1" y="33" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -26.8396 65.6847)" class="st5" width="27.6" height="64.6"/>
+			<polygon id="Shape_4_" class="st5" points="12.8,72.7 0.2,0.6 72.4,13.1 			"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 151 158)" class="st6 st7 st8">pixels</text>
+</g>
+</svg>

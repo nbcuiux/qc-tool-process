@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="720px" viewBox="0 0 720 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>day-to-day</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.0055556%" cy="50.0011111%" fx="50.0055556%" fy="50.0011111%" r="70.71%" id="radialGradient-1">
+            <stop stop-color="#FAFAFA" offset="0%"></stop>
+            <stop stop-color="#EEEEEE" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="day-to-day" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wants" fill-rule="nonzero">
+            <g id="Group">
+                <rect id="Rectangle-Copy" fill="url(#radialGradient-1)" x="0" y="0" width="720" height="720"></rect>
+                <g id="Rectangle" transform="translate(200.000000, 201.000000)">
+                    <rect id="path-2_2_" fill="#000000" x="0" y="0" width="321" height="321"></rect>
+                    <rect id="path-2_1_" fill="#FFFFFF" x="0" y="0" width="321" height="321"></rect>
+                </g>
+            </g>
+            <g id="..." transform="translate(262.000000, 333.000000)" fill="#64A3C1">
+                <path d="M27.5,55 C12.3,55 0,42.7 0,27.5 C0,12.3 12.3,0 27.5,0 C42.7,0 55,12.3 55,27.5 C55,42.7 42.7,55 27.5,55 L27.5,55 Z M27.5,47 C38.3,47 47,38.3 47,27.5 C47,16.7 38.3,8 27.5,8 C16.7,8 8,16.7 8,27.5 C8,38.2 16.7,47 27.5,47 C27.4,47 27.5,47 27.5,47 Z" id="Oval-Copy-5"></path>
+                <path d="M97.5,55 C82.3,55 70,42.7 70,27.5 C70,12.3 82.3,0 97.5,0 C112.7,0 125,12.3 125,27.5 C125,42.7 112.7,55 97.5,55 L97.5,55 Z M97.5,47 C108.3,47 117,38.3 117,27.5 C117,16.7 108.3,8 97.5,8 C86.7,8 78,16.7 78,27.5 C78,38.2 86.7,47 97.5,47 C97.4,47 97.5,47 97.5,47 Z" id="Oval-Copy-4"></path>
+                <path d="M168.5,55 C153.3,55 141,42.7 141,27.5 C141,12.3 153.3,0 168.5,0 C183.7,0 196,12.3 196,27.5 C196,42.7 183.7,55 168.5,55 L168.5,55 Z M168.5,47 C179.3,47 188,38.3 188,27.5 C188,16.7 179.3,8 168.5,8 C157.7,8 149,16.7 149,27.5 C149,38.2 157.7,47 168.5,47 C168.4,47 168.5,47 168.5,47 Z" id="Oval-Copy-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
