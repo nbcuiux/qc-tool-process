@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+    <meta charset="utf-8">
+    //= ../menu/css.html
+
+    <title>International Dashboard Requirements</title>
+</head>
+
+<body class="site-material_ext_publish section-animation first-chapter color-red qp-ui" data-qp-ui="{ 'Mask': {} }">
+  <header class="qp-ui" data-qp-ui="{
+  'Peekaboo': {
+  'mobile': 72,
+  'desktop-sm': 72,
+  'default': 192
+}
+}">
+<div class="header-wrapper qp-ui" data-qp-ui="{
+'Peekaboo': {
+'mobile': 28,
+'desktop-sm': 28,
+'default': 82
+}
+}">
+<div class="header-title">
+    <span class="section-title">Requirements</span>
+    <span class="chapter-title">
+        <span class="title-separator">&mdash;</span>
+        International Dashboard
+    </span>
+</div>
+</div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab"><i class="material-icons material-spec-icon" title="Show navigation">menu</i></button>
+</nav>
+
+//= ../menu/menu.html
+
+<div id="grid-cont">
+    <section class="grid_outer chapter">
+        <h1 class="chapter-title">Requirements - International Dashboard</h1>
+        <p class="chapter-intro">We received requirements for the International Dashboard from Adrian’s product team. They provided a low fidelity wireframe (below) which we based our mocks off of. The requirements have been molded since the initial project kickoff.</p>
+
+        <div class="chapter-content">
+
+          <img src="/imgs/wireframe_internationalDash.png" id="international_dashboard_wireframe">
+            <!-- <nav class="chapter-toc chapter-toc--2col">
+                <h1>Contents</h1>
+                <ul>
+                    <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#e1">Wireframe</a></li>
+                    <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#d1">Requirements</a></li>
+                </ul>
+            </nav> -->
+
+            <div class="article-list">
+
+              <div id="f1" class="article qp-ui p_normal" data-qp-ui="{ 'ScrollSpy': {} }">
+                  <div class="article-content">
+                      <div class="module-list">
+                          <div>
+                              <section class="moduleG1 moduleTwoColumn">
+                                  <div class="figure-group">
+                                      <!-- Row Start-->
+                                      <div class="figure-row">
+                                          <ul style="list-style: none">
+                                            <li>
+                                                <div class="icon-header">
+                                                        <img src="/imgs/icons/dashboard.svg" width="30">
+                                                        <h3 class="article-title qp-ui">Dashboard of Order IDs</h3>
+                                                </div>
+                                                <p>A dashboard with rows for each order. Metadata columns that need to be included are..</p>
+                                                <ol style="list-style: decimal!important;list-style-position: inside;">
+                                                  <li><p>1. Order ID</p></li>
+                                                  <li><p>2. SLA Date</p></li>
+                                                  <li><p>3. Go Live Date</p></li>
+                                                  <li><p>4. Channel</p></li>
+                                                  <li><p>5. Media Type</p></li>
+                                                  <li><p>6. Status</p></li>
+                                                </ol><br>
+                                                 <p>Users can sort the table in ascending or descending order for any column.</p>
+                                             </li>
+
+                                             <li>
+                                                 <div class="icon-header">
+                                                         <img src="/imgs/icons/pipeline.svg" width="30">
+                                                         <h3 class="article-title qp-ui">Pipeline</h3>
+                                                 </div>
+                                                   <p>Each order ID displays the linear chain of progress states; filled in ones express that it is on or has finished that state. The states need to be grouped accordingly from its source. The states (statuses) are...</p>
+                                                     <ol style="list-style: decimal!important;list-style-position: inside;">
+                                                       <li><p>1. Order Placed (Lacuna)</p></li>
+                                                       <li><p>2. Order Creation Required (Pipeline)</p></li>
+                                                       <li><p>3. Creating Order (Pipeline)</p></li>
+                                                       <li><p>4. Order Referral (Pipeline)</p></li>
+                                                       <li><p>5. Ready at Platform (Playout)</p></li>
+                                                       <li><p>6. Status</p></li>
+                                                     </ol><br>
+                                                    <p>The status column will display where in the pipeline the order currently is located. Hovering over the latest state allows users to see the breakdown of the overall state i.e. progress of Video, Engligh Audio, Spanish Audio, etc.</p>
+                                              </li>
+
+                                              <li>
+                                                  <div class="icon-header">
+                                                          <img src="/imgs/icons/search.svg" width="30">
+                                                          <h3 class="article-title qp-ui">Search</h3>
+                                                  </div>
+                                                    <p>Users need the ability to search the dashboard for specific Order IDs so they can find specific ones quickly.</p>
+                                               </li>
+
+                                               <li>
+                                                   <div class="icon-header">
+                                                           <img src="/imgs/icons/filter.svg" width="30">
+                                                           <h3 class="article-title qp-ui">Filters</h3>
+                                                   </div>
+                                                     <p>Ability to filter the dashboard by….</p>
+                                                       <ol style="list-style: decimal!important;list-style-position: inside;">
+                                                         <li><p>1. Go live date (On and In-Between)</p></li>
+                                                         <li><p>2. SLA Date (On and In-Between)</p></li>
+                                                         <li><p>3. Channel</p></li>
+                                                         <li><p>4. Media</p></li>
+                                                         <li><p>5. Status</p></li>
+                                                       </ol><br>
+                                                      <p>Users need the ability to save and manage custom filter settings as well for shortcuts.</p>
+                                                </li>
+
+                                                <li>
+                                                    <div class="icon-header">
+                                                            <img src="/imgs/icons/alert.svg" width="30">
+                                                            <h3 class="article-title qp-ui">Notifications</h3>
+                                                    </div>
+                                                      <p>The dashboard needs to notify users if orders are waiting, as risk, or complete. Clicking on one of those should filter the dashboard accordingly.</p>
+                                                 </li>
+
+
+
+                                                </ul>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                      <!-- Row End -->
+                                  </div>
+                              </section>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-L section-what-is-material color-default">&nbsp;</div>
+        <div class="footer-grid-L section-what-is-material color-default">
+            <a class="footer-text" href="../lifecycle/index.html">
+                <i class="material-icons arrow-L">arrow_back</i>
+                <span class="direction">Previous</span>
+                <div>Lifecycle</div>
+            </a>
+        </div>
+
+        <div class="footer-R section-animation color-default">&nbsp;</div>
+        <div class="footer-grid-R section-animation color-default">
+            <a class="footer-text" href="../international/design.html">
+                <i class="material-icons arrow-R">arrow_forward</i>
+                <span class="direction">Next</span>
+                <div>International Dash: Design</div>
+            </a>
+        </div>
+    </div>
+</footer>
+//= ../menu/js.html
+</body>
+</html>

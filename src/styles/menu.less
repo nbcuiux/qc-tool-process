@@ -24,7 +24,7 @@
 
 .menu__header {
   border-left: 2px solid transparent;
-  color: #E3C200;
+  color:#333;
   font-weight: @menuItemsFontWeight;
   margin-top: 0;
   padding: 15px 0 15px 22px;
@@ -74,13 +74,13 @@
   border-left: 2px solid transparent;
   color: #333;
   display: block;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.1px;
   padding: 10px 24px 10px 46px;
   white-space: nowrap;
 
   &:active, &:focus {
-    background-color: #286E90!important;
+
     color: white!important;
   }
   &.menu__item--upper {
@@ -95,6 +95,11 @@
 
 #side-nav nav a {
   color: #333;
+  font-weight:700;
+  &:active, &:hover {
+    background-color: #E3C200!important;
+    color: white!important;
+  }
 }
 
 @keyframes collapse {
